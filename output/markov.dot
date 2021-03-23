@@ -1,0 +1,29 @@
+digraph  {
+entrance;
+drinks;
+dairy;
+fruit;
+spices;
+checkout;
+drinks -> checkout  [key=0, label="0.22", weight="0.22"];
+drinks -> dairy  [key=0, label="0.01", weight="0.01"];
+drinks -> drinks  [key=0, label="0.6", weight="0.6"];
+drinks -> fruit  [key=0, label="0.09", weight="0.09"];
+drinks -> spices  [key=0, label="0.09", weight="0.09"];
+dairy -> checkout  [key=0, label="0.1", weight="0.1"];
+dairy -> dairy  [key=0, label="0.74", weight="0.74"];
+dairy -> drinks  [key=0, label="0.06", weight="0.06"];
+dairy -> fruit  [key=0, label="0.05", weight="0.05"];
+dairy -> spices  [key=0, label="0.05", weight="0.05"];
+fruit -> checkout  [key=0, label="0.2", weight="0.2"];
+fruit -> dairy  [key=0, label="0.09", weight="0.09"];
+fruit -> drinks  [key=0, label="0.05", weight="0.05"];
+fruit -> fruit  [key=0, label="0.6", weight="0.6"];
+fruit -> spices  [key=0, label="0.05", weight="0.05"];
+spices -> checkout  [key=0, label="0.15", weight="0.15"];
+spices -> dairy  [key=0, label="0.19", weight="0.19"];
+spices -> drinks  [key=0, label="0.16", weight="0.16"];
+spices -> fruit  [key=0, label="0.09", weight="0.09"];
+spices -> spices  [key=0, label="0.41", weight="0.41"];
+checkout -> checkout  [key=0, label="1.0", weight="1.0"];
+}
