@@ -13,3 +13,6 @@ The transition probabilities matrix is calculated to analyze how customers switc
 #### Usage 
 python main.py
 <img src="screenshots/supermarket.gif">
+
+just for fun, a simulation for customers behaviour when there is a big discount or offer, or any product is missing from the market.
+<img src="screenshots/behaviour.gif">
