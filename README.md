@@ -8,7 +8,7 @@ The customers enter from the entrance,then they can move between four areas free
 The transition probabilities matrix is calculated to analyze how customers switch between sections of the supermarket. 
 
 #### State Diagram
-<img src="output/markov.png" >
+<img src="output/markov.png" width="400" height="300">
 
 #### Usage 
 python main.py
