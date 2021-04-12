@@ -1,5 +1,5 @@
 ## Supermarket-Simulation
-in this project, I simulate custome behaviour in a supermarket with Markov-Chain.
+in this project, I simulate customers behaviour in a supermarket with Markov-Chain.
 
 The data used is tracked from supermarket customers during a five-day week.it includes tabular data indicating where customers spent their time.
 
